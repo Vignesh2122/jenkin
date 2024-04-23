@@ -9,8 +9,6 @@ COPY . /app
 
 # Install Python dependencies
 # If you have a requirements.txt file, this is the best way to install dependencies
-COPY requirements.txt /app/requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
 
 # Define the command to run when the container starts
 CMD ["python", "app.py"]
