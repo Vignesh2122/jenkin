@@ -9,4 +9,9 @@ COPY . /app
 
 # Install Python dependencies
 # If you have a requirements.txt file, this is the best way to install dependencies
+<<<<<<< HEAD
+=======
+
+# Define the command to run when the container starts
+>>>>>>> refs/remotes/origin/main
 CMD ["python", "app.py"]
